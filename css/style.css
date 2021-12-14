@@ -103,6 +103,7 @@ html {
 }
 
 .model-text {
+    margin-bottom: 0.4rem;
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
@@ -267,11 +268,14 @@ html {
 
 @media screen and (max-width:500px) {
     html {
-        font-size: 10px;
+        font-size: 11px;
     }
 }
 
 @media screen and (max-width:1000px) {
+    html{
+        font-size: 13px;
+    }
     .nav {
         justify-content: space-between
     }
@@ -325,11 +329,11 @@ html {
         font-size: 1.8rem;
     }
     .model-text {
-        font-size: 1.3rem;
+        font-size: 1.8rem;
         word-spacing: 0px;
     }
     .model-text-sub {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
     .pointout-round>h1 {
         position: static;
@@ -339,6 +343,12 @@ html {
     }
     .footer {
         grid-template-columns: 90%;
+    }
+    .footer-main-text{
+        font-size: 1.5rem;
+    }
+    .footer-link{
+        font-size: 1.3rem;
     }
     .footer-social-box {
         display: block;
